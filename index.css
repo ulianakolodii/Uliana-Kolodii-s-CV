@@ -77,16 +77,25 @@ body {
 
 .project,
 .project-link {
+  display: flex;
+  justify-content: space-between;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #595959;
+  overflow: hidden;
 }
 
 .project-link {
-  /*text-decoration: none;*/
   margin-left: 10px;
+}
+
+.dotted_bottom {
+  flex: 1 0;
+  border-bottom: 1px dotted #000;
+  height: 1em;
+  margin: 2px .1em;
 }
 
 .project-bracket {
@@ -96,6 +105,7 @@ body {
   line-height: 24px;
   color: #000000;
 }
+
 
 .position {
   font-style: normal;
@@ -203,7 +213,7 @@ body {
   justify-content: space-between;
 }
 .contacts__box {
- margin: 1px 0;
+  margin: 1px 0;
 }
 .contact-type {
   font-style: normal;
