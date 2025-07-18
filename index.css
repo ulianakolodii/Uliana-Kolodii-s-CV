@@ -16,6 +16,7 @@ body {
   background-color: rgb(246, 240, 243);
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   padding: 50px 90px;
+  max-width: 45vw;
 }
 
 .about {
@@ -268,11 +269,6 @@ body {
 .tech-skills-desc {
   margin-top: -10px;
   margin-bottom: 10px;
-}
-
-.tech-skills-descript {
-  color: #c4c7cb;
-  font-size: 10px;
 }
 
 .list-point {
