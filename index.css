@@ -16,7 +16,6 @@ body {
   background-color: rgb(246, 240, 243);
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
   padding: 50px 90px;
-  max-width: 45vw;
 }
 
 .about {
@@ -178,7 +177,8 @@ body {
 .side_box {
   background-color: #594f58;
   padding-top: 40px;
-  width: 370px;
+  min-width: 350px;
+  max-width: 370px;
 }
 
 .photo {
