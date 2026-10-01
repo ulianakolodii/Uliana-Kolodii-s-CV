@@ -155,8 +155,7 @@ body {
 }
 
 .work_description,
-.study_description,
-.stat_list {
+.study_description {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -170,9 +169,6 @@ body {
   font-size: 12px;
 }
 
-.stat_list {
-  color: #bf1a8a;
-}
 
 .side_box {
   background-color: #594f58;
@@ -192,7 +188,8 @@ body {
 
 .contacts,
 .tech_skills,
-.soft_skills {
+.soft_skills,
+.funny_stats {
   margin-left: 40px;
 }
 
@@ -278,4 +275,25 @@ body {
 
 .soft-skills-list {
   padding-bottom: 12px;
+}
+
+.funny_stats {
+  margin-top: 44px;
+  margin-bottom: 40px;
+}
+
+.stat_list {
+  padding-left: 17px;
+  margin-top: 0px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #c4c7cb;
+}
+
+.stat_list li::marker {
+  color: #bf1a8a;
+}
+
+.stat_list strong {
+  color: white;
 }
